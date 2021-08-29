@@ -109,7 +109,7 @@ static setSceneControlHooks() {
 				
 				if(game.modules.get('libruler')?.active) {
 				  tool.toggle = true;
-				  tool.active = false; // start inactive after loading game
+				  tool.active = true; // start inactive after loading game
 				}
 				
 				tokenButton.tools.push(tool);
